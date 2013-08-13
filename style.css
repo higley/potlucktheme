@@ -1,6 +1,7 @@
 @import url("../spun/style.css");
 /*
 Theme Name: Potluck
+Template: spun
 Author: John Higley
 Author URI: http://jhigley.com/
 Description: Child theme of Spun
@@ -27,3 +28,64 @@ Version: 1.06
 
 */
 
+.hentry.no-thumbnail {
+	background: #aaa;
+}
+
+.hentry.no-thumbnail:hover {
+	background: #f09330;
+}
+
+#masthead {
+	opacity: .5;
+}
+
+.entry-meta {
+	opacity: .7;
+}
+
+#secondary {
+	display: block;
+}
+
+.wp-about-author-containter-around {
+	background-color: rgba(247,247,247,.5)!important;
+	border: 1px solid silver;
+	border-radius: 4px;
+}
+
+ul li::before {
+	content: none;
+}
+
+li.authors:before {
+	content: none;
+}
+
+.site-description {
+	background: transparent;
+	display: inherit;
+	border-radius: 0;
+	float: none;
+	width: auto;
+	height: auto;
+}
+
+.site-main a {
+	color: #f09330;
+	border-bottom: 1px solid #f09330;
+}
+
+.site-main a img {
+	border-bottom: 0;
+}
+
+a:hover, a:focus, a:active {
+	color: #fabc48;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+	font-size: inherit;
+	text-transform: none;
+}
